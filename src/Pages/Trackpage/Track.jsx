@@ -10,7 +10,7 @@ import RefreshIcon from "@mui/icons-material/Refresh";
 import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
 import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
 // import { useInView } from "react-intersection-observer";
-import { useSpeechSynthesis } from "react-speech-kit";
+import { useSpeechSynthesis } from "../../hooks/useSpeechSynthesis";
 import axios from "axios";
 
 export default function Track({ curpage }) {
